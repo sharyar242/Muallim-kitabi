@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+        <item
+            android:id="@+id/nav_aytiliw"
+            android:icon="@drawable/book"
+            android:title="" />
+        <item
+            android:id="@+id/nav_oqiliw"
+            android:icon="@drawable/book"
+            android:title="" />
+        <item
+            android:id="@+id/nav_mad"
+            android:icon="@drawable/book"
+            android:title="@string/madli_xatipler" />
+        <item
+            android:id="@+id/nav_tashdidler"
+            android:icon="@drawable/book"
+            android:title="" />
+        <item
+            android:id="@+id/nav_oqilatin_xaripler"
+            android:icon="@drawable/book"
+            android:title="" />
+        <item
+            android:id="@+id/nav_wasl_waqf_mad"
+            android:icon="@drawable/book"
+            android:title="" />
+
+        <item
+            android:id="@+id/nav_idgom_iqlob"
+            android:icon="@drawable/book"
+            android:title="" />
+        <item
+            android:id="@+id/nav_kalimalar"
+            android:icon="@drawable/book"
+            android:title="" />
+
+        <item
+            android:id="@+id/nav_ayatlar"
+            android:icon="@drawable/book"
+            android:title="" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/book"
+            android:title="@string/about" />
+    </group>
+</menu>
